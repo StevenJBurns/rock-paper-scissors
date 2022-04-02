@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+}
+
+header, footer {
+  width: 100%;
+  margin: auto;
+}
+
+header h1 {
+  text-align: center;
+}
+
+footer h4 {
+  text-align: center;
+}
+
+main {
+  flex: 1 0 auto;
+  height: 100%;
+}
+
+ul {
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #777;
+  border-radius: 4px;
+  list-style: none;
+}
+
+li {
+  margin-top: 0.25em;
+}
+
+label {
+  margin: 0 0.5em;
+}
+
+button {
+  width: 12em;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+#scoreboard {
+  display: flex;
+}
+
+#scoreboard h4 {
+  margin: 2em;
+}
+
+#history {
+  margin-top: 2em;
+}
