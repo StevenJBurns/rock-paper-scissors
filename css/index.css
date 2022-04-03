@@ -8,12 +8,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
   background-color: lightgray;
+  font-family: Futura, Roboto, Oxygen, Ubuntu, 'Segoe UI', 'Open Sans', sans-serif;
 }
 
 header, footer {
   width: 100%;
-  margin: auto;
+  padding: 1em 0;
+  background-color: #BBB;
 }
 
 header h1 {
