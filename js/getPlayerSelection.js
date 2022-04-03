@@ -1,3 +1,3 @@
 export const getPlayerSelection = () => {
-  return `${document.querySelector('input[name=gameOptions]:checked').value}`;
+  return `${document.querySelector('#gameOptionsSection').getAttribute('data-player-selection')}`;
 };
