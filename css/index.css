@@ -69,11 +69,23 @@ button {
 }
 
 #scoreboard {
-  display: flex;
+  
 }
 
-#scoreboard h4 {
-  margin: 2em;
+#scoreboard tr {
+  display: flex;
+  justify-content: center;
+}
+
+#scoreboard tr td {
+  flex: 1 0 auto;
+  margin: 0 1em;
+  padding: 0 1em;
+  text-align: center;
+}
+
+#table-row-headers td {
+  text-decoration: underline;
 }
 
 #history {
