@@ -1,7 +1,7 @@
 import { OPTIONS, RESULTS } from './constants.js';
 
 export const checkForWinner = (playerSelection, computerSelection) => {
-  if (!playerSelection || !computerSelection)
+  if (!OPTIONS.includes(playerSelection) || !OPTIONS.includes(computerSelection))
     throw new Error('Someone didn\'t select');
 
   const [rock, paper, scissors] = OPTIONS;
