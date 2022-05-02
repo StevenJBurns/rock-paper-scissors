@@ -12,9 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/StevenJBurns/rock-paper-scissors.git"
   },
- 
   "bugs": {
     "url": "https://github.com/StevenJBurns/rock-paper-scissors/issues"
   },
-  "homepage": "https://github.com/StevenJBurns/rock-paper-scissors#readme"
+  "homepage": "https://github.com/StevenJBurns/rock-paper-scissors#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
 }
