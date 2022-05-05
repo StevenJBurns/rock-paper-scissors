@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: lightgray;
+  font-family: Futura, Roboto, Oxygen, Ubuntu, 'Segoe UI', 'Open Sans', sans-serif;
+}
+
+header, footer {
+  width: 100%;
+  padding: 1em 0;
+  background-color: #BBB;
+}
+
+header h1 {
+  text-align: center;
+}
+
+footer h4 {
+  text-align: center;
+}
+
+main {
+  flex: 1 0 auto;
+  height: 100%;
+}
+
+li {
+  margin-top: 0.25em;
+}
+
+label {
+  margin: 0 0.5em;
+}
+
+button {
+  width: 12em;
+  margin: 1em;
+  padding: 0.5em;
+}
+
+#gameOptionsSection {
+  display: flex;
+  justify-content: center;
+}
+
+#gameOptionsSection button {
+  width: 6em;
+  height: 6em;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+#scoreboard {
+  
+}
+
+#scoreboard tr {
+  display: flex;
+  justify-content: center;
+}
+
+#scoreboard tr td {
+  flex: 1 0 auto;
+  margin: 0 1em;
+  padding: 0 1em;
+  text-align: center;
+}
+
+#table-row-headers td {
+  text-decoration: underline;
+}
+
+#historySection {
+  margin-top: 2em;
+}
+
+#historySection ul {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  border: 1px solid #777;
+  border-radius: 4px;
+  width: 90%;
+  max-width: 280px;
+  height:300px;
+  overflow: hidden;
+  overflow-y: scroll;
+  list-style: none;
+}
