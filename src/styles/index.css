@@ -32,16 +32,6 @@ main {
   height: 100%;
 }
 
-ul {
-  margin: 1em;
-  padding: 1em;
-  display: flex;
-  flex-direction: column;
-  border: 2px solid #777;
-  border-radius: 4px;
-  list-style: none;
-}
-
 li {
   margin-top: 0.25em;
 }
@@ -88,6 +78,20 @@ button {
   text-decoration: underline;
 }
 
-#history {
+#historySection {
   margin-top: 2em;
+}
+
+#historySection ul {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  border: 1px solid #777;
+  border-radius: 4px;
+  width: 90%;
+  max-width: 280px;
+  height:300px;
+  overflow: hidden;
+  overflow-y: scroll;
+  list-style: none;
 }
