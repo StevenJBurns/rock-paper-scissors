@@ -1,4 +1,4 @@
-import { OPTIONS } from './constants.js';
+import { OPTIONS } from './enums/options.js';
 import { handleGameOptionButtonClick } from './handleGameOptionButtonClick.js';
 
 const gameOptionsSection: Element | null = document.querySelector('#gameOptionsSection');

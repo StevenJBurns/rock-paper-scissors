@@ -1,4 +1,5 @@
-import { OPTIONS, RESULTS } from './constants.js';
+import { OPTIONS } from './enums/options';
+import { RESULTS } from './enums/results';
 
 export const checkForWinner = (
   playerSelection: string | undefined,
