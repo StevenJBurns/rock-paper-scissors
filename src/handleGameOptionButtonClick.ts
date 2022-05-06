@@ -1,4 +1,4 @@
-import { RESULTS } from './enums/results'
+import { RESULTS } from './enums/results.js'
 import { getPlayerSelection } from './getPlayerSelection.js';
 import { getComputerSelection } from './getComputerSelection.js';
 import { checkForWinner } from './checkForWinner.js';
