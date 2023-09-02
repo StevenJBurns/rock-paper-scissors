@@ -1,11 +1,12 @@
-import { OPTIONS, RESULTS } from './constants.js';
+import { OPTIONS } from './enums/options.js';
+import { RESULTS } from './enums/results.js';
 
-export const checkForWinner = (playerSelection, computerSelection) => {
-  if (!OPTIONS.includes(playerSelection) || !OPTIONS.includes(computerSelection))
-    throw new Error('Someone didn\'t select');
-
-  const [rock, paper, scissors] = OPTIONS;
-  const [tie, computer, player] = RESULTS;
+export const checkForWinner = (
+  playerSelection: string | undefined,
+  computerSelection: string | undefined
+  ): string | undefined => {
+  const [rock, paper, scissors] = Object.values(OPTIONS);
+  const [tie, computer, player] = Object.values(RESULTS);
 
   if (playerSelection === computerSelection) return tie;
   
