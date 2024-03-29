@@ -19,7 +19,7 @@ header, footer {
   background-color: #BBB;
 }
 
-header h1 {
+header h3 {
   text-align: center;
 }
 
@@ -30,6 +30,7 @@ footer h4 {
 main {
   flex: 1 0 auto;
   height: 100%;
+  padding: 2rem;
 }
 
 li {
